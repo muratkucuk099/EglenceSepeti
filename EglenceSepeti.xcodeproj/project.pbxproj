@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040FAAB82990482F00B6BF92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040FAAB72990482F00B6BF92 /* GoogleService-Info.plist */; };
+		0412C18029905625004261BF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412C17F29905625004261BF /* SignUpViewController.swift */; };
+		0414E4AC299046B200987844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4AB299046B200987844 /* AppDelegate.swift */; };
+		0414E4AE299046B200987844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4AD299046B200987844 /* SceneDelegate.swift */; };
+		0414E4B0299046B200987844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4AF299046B200987844 /* ViewController.swift */; };
+		0414E4B3299046B200987844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0414E4B1299046B200987844 /* Main.storyboard */; };
+		0414E4B6299046B200987844 /* EglenceSepeti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4B4299046B200987844 /* EglenceSepeti.xcdatamodeld */; };
+		0414E4B8299046B300987844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0414E4B7299046B300987844 /* Assets.xcassets */; };
+		0414E4BB299046B300987844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0414E4B9299046B300987844 /* LaunchScreen.storyboard */; };
+		0414E4C6299046B300987844 /* EglenceSepetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4C5299046B300987844 /* EglenceSepetiTests.swift */; };
+		0414E4D0299046B300987844 /* EglenceSepetiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4CF299046B300987844 /* EglenceSepetiUITests.swift */; };
+		0414E4D2299046B300987844 /* EglenceSepetiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414E4D1299046B300987844 /* EglenceSepetiUITestsLaunchTests.swift */; };
+		043955CC2995010D00EC3439 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043955CB2995010D00EC3439 /* Post.swift */; };
+		043955CE299586EB00EC3439 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043955CD299586EB00EC3439 /* DetailsViewController.swift */; };
+		043955D02996C80400EC3439 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043955CF2996C80400EC3439 /* User.swift */; };
+		046DA405299445D60074DAC5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DA404299445D60074DAC5 /* TableViewCell.swift */; };
+		04922C1329905D540080C909 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922C1229905D540080C909 /* MainPageViewController.swift */; };
+		04922C1529905D6D0080C909 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922C1429905D6D0080C909 /* MyProfileViewController.swift */; };
+		04922C17299109630080C909 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922C16299109630080C909 /* UploadViewController.swift */; };
+		127DDBC09C94DB6DAD091DEE /* Pods_EglenceSepeti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A55FE9C4071B14CB7C27D4 /* Pods_EglenceSepeti.framework */; };
+		542A4308EDAFBD331E9D9C2F /* Pods_EglenceSepeti_EglenceSepetiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF0E3A9B38C3B9FD6D93530 /* Pods_EglenceSepeti_EglenceSepetiUITests.framework */; };
+		F7D99B8C0F56F04A2E5BD07A /* Pods_EglenceSepetiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AA52BD97BBE0152000A0EC /* Pods_EglenceSepetiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0414E4C2299046B300987844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0414E4A0299046B100987844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0414E4A7299046B200987844;
+			remoteInfo = EglenceSepeti;
+		};
+		0414E4CC299046B300987844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0414E4A0299046B100987844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0414E4A7299046B200987844;
+			remoteInfo = EglenceSepeti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040FAAB72990482F00B6BF92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0412C17F29905625004261BF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0414E4A8299046B200987844 /* EglenceSepeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EglenceSepeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0414E4AB299046B200987844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0414E4AD299046B200987844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0414E4AF299046B200987844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0414E4B2299046B200987844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0414E4B5299046B200987844 /* EglenceSepeti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EglenceSepeti.xcdatamodel; sourceTree = "<group>"; };
+		0414E4B7299046B300987844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0414E4BA299046B300987844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0414E4BC299046B300987844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0414E4C1299046B300987844 /* EglenceSepetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EglenceSepetiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0414E4C5299046B300987844 /* EglenceSepetiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EglenceSepetiTests.swift; sourceTree = "<group>"; };
+		0414E4CB299046B300987844 /* EglenceSepetiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EglenceSepetiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0414E4CF299046B300987844 /* EglenceSepetiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EglenceSepetiUITests.swift; sourceTree = "<group>"; };
+		0414E4D1299046B300987844 /* EglenceSepetiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EglenceSepetiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		043955CB2995010D00EC3439 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		043955CD299586EB00EC3439 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		043955CF2996C80400EC3439 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		046DA404299445D60074DAC5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04922C1229905D540080C909 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		04922C1429905D6D0080C909 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		04922C16299109630080C909 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		3E7899939A439F5516A24E16 /* Pods-EglenceSepeti-EglenceSepetiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EglenceSepeti-EglenceSepetiUITests.debug.xcconfig"; path = "Target Support Files/Pods-EglenceSepeti-EglenceSepetiUITests/Pods-EglenceSepeti-EglenceSepetiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B26DBDFED5D0AA04BE56FC0 /* Pods-EglenceSepetiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EglenceSepetiTests.release.xcconfig"; path = "Target Support Files/Pods-EglenceSepetiTests/Pods-EglenceSepetiTests.release.xcconfig"; sourceTree = "<group>"; };
+		69A55FE9C4071B14CB7C27D4 /* Pods_EglenceSepeti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EglenceSepeti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8443F49B4A716F26B30A1000 /* Pods-EglenceSepeti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EglenceSepeti.release.xcconfig"; path = "Target Support Files/Pods-EglenceSepeti/Pods-EglenceSepeti.release.xcconfig"; sourceTree = "<group>"; };
+		8FC57CA704A41FDA82027A5F /* Pods-EglenceSepetiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EglenceSepetiTests.debug.xcconfig"; path = "Target Support Files/Pods-EglenceSepetiTests/Pods-EglenceSepetiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98E5659174E72B214C5050C9 /* Pods-EglenceSepeti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EglenceSepeti.debug.xcconfig"; path = "Target Support Files/Pods-EglenceSepeti/Pods-EglenceSepeti.debug.xcconfig"; sourceTree = "<group>"; };
+		A4AA52BD97BBE0152000A0EC /* Pods_EglenceSepetiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EglenceSepetiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AC2312AA8502ED5FD1E6CA /* Pods-EglenceSepeti-EglenceSepetiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EglenceSepeti-EglenceSepetiUITests.release.xcconfig"; path = "Target Support Files/Pods-EglenceSepeti-EglenceSepetiUITests/Pods-EglenceSepeti-EglenceSepetiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCF0E3A9B38C3B9FD6D93530 /* Pods_EglenceSepeti_EglenceSepetiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EglenceSepeti_EglenceSepetiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0414E4A5299046B200987844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127DDBC09C94DB6DAD091DEE /* Pods_EglenceSepeti.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0414E4BE299046B300987844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D99B8C0F56F04A2E5BD07A /* Pods_EglenceSepetiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0414E4C8299046B300987844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542A4308EDAFBD331E9D9C2F /* Pods_EglenceSepeti_EglenceSepetiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0414E49F299046B100987844 = {
+			isa = PBXGroup;
+			children = (
+				0414E4AA299046B200987844 /* EglenceSepeti */,
+				0414E4C4299046B300987844 /* EglenceSepetiTests */,
+				0414E4CE299046B300987844 /* EglenceSepetiUITests */,
+				0414E4A9299046B200987844 /* Products */,
+				27656FFEEA61AEBAAB2EC773 /* Pods */,
+				5F123894B9F356D49D6B8E0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0414E4A9299046B200987844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0414E4A8299046B200987844 /* EglenceSepeti.app */,
+				0414E4C1299046B300987844 /* EglenceSepetiTests.xctest */,
+				0414E4CB299046B300987844 /* EglenceSepetiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0414E4AA299046B200987844 /* EglenceSepeti */ = {
+			isa = PBXGroup;
+			children = (
+				0414E4AB299046B200987844 /* AppDelegate.swift */,
+				0414E4AD299046B200987844 /* SceneDelegate.swift */,
+				0414E4AF299046B200987844 /* ViewController.swift */,
+				0412C17F29905625004261BF /* SignUpViewController.swift */,
+				046DA404299445D60074DAC5 /* TableViewCell.swift */,
+				04922C1229905D540080C909 /* MainPageViewController.swift */,
+				04922C1429905D6D0080C909 /* MyProfileViewController.swift */,
+				043955CD299586EB00EC3439 /* DetailsViewController.swift */,
+				04922C16299109630080C909 /* UploadViewController.swift */,
+				043955CB2995010D00EC3439 /* Post.swift */,
+				043955CF2996C80400EC3439 /* User.swift */,
+				0414E4B1299046B200987844 /* Main.storyboard */,
+				0414E4B7299046B300987844 /* Assets.xcassets */,
+				0414E4B9299046B300987844 /* LaunchScreen.storyboard */,
+				0414E4BC299046B300987844 /* Info.plist */,
+				040FAAB72990482F00B6BF92 /* GoogleService-Info.plist */,
+				0414E4B4299046B200987844 /* EglenceSepeti.xcdatamodeld */,
+			);
+			path = EglenceSepeti;
+			sourceTree = "<group>";
+		};
+		0414E4C4299046B300987844 /* EglenceSepetiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0414E4C5299046B300987844 /* EglenceSepetiTests.swift */,
+			);
+			path = EglenceSepetiTests;
+			sourceTree = "<group>";
+		};
+		0414E4CE299046B300987844 /* EglenceSepetiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0414E4CF299046B300987844 /* EglenceSepetiUITests.swift */,
+				0414E4D1299046B300987844 /* EglenceSepetiUITestsLaunchTests.swift */,
+			);
+			path = EglenceSepetiUITests;
+			sourceTree = "<group>";
+		};
+		27656FFEEA61AEBAAB2EC773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98E5659174E72B214C5050C9 /* Pods-EglenceSepeti.debug.xcconfig */,
+				8443F49B4A716F26B30A1000 /* Pods-EglenceSepeti.release.xcconfig */,
+				3E7899939A439F5516A24E16 /* Pods-EglenceSepeti-EglenceSepetiUITests.debug.xcconfig */,
+				D8AC2312AA8502ED5FD1E6CA /* Pods-EglenceSepeti-EglenceSepetiUITests.release.xcconfig */,
+				8FC57CA704A41FDA82027A5F /* Pods-EglenceSepetiTests.debug.xcconfig */,
+				5B26DBDFED5D0AA04BE56FC0 /* Pods-EglenceSepetiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F123894B9F356D49D6B8E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69A55FE9C4071B14CB7C27D4 /* Pods_EglenceSepeti.framework */,
+				DCF0E3A9B38C3B9FD6D93530 /* Pods_EglenceSepeti_EglenceSepetiUITests.framework */,
+				A4AA52BD97BBE0152000A0EC /* Pods_EglenceSepetiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0414E4A7299046B200987844 /* EglenceSepeti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0414E4D5299046B300987844 /* Build configuration list for PBXNativeTarget "EglenceSepeti" */;
+			buildPhases = (
+				D85914F6D2EFEC196934906E /* [CP] Check Pods Manifest.lock */,
+				0414E4A4299046B200987844 /* Sources */,
+				0414E4A5299046B200987844 /* Frameworks */,
+				0414E4A6299046B200987844 /* Resources */,
+				A36BD2B32D8BF51555EBA282 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EglenceSepeti;
+			productName = EglenceSepeti;
+			productReference = 0414E4A8299046B200987844 /* EglenceSepeti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0414E4C0299046B300987844 /* EglenceSepetiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0414E4D8299046B300987844 /* Build configuration list for PBXNativeTarget "EglenceSepetiTests" */;
+			buildPhases = (
+				61181328AB3F63A3172AB7BE /* [CP] Check Pods Manifest.lock */,
+				0414E4BD299046B300987844 /* Sources */,
+				0414E4BE299046B300987844 /* Frameworks */,
+				0414E4BF299046B300987844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0414E4C3299046B300987844 /* PBXTargetDependency */,
+			);
+			name = EglenceSepetiTests;
+			productName = EglenceSepetiTests;
+			productReference = 0414E4C1299046B300987844 /* EglenceSepetiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0414E4CA299046B300987844 /* EglenceSepetiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0414E4DB299046B300987844 /* Build configuration list for PBXNativeTarget "EglenceSepetiUITests" */;
+			buildPhases = (
+				60E89EF958710EE1F75ED94D /* [CP] Check Pods Manifest.lock */,
+				0414E4C7299046B300987844 /* Sources */,
+				0414E4C8299046B300987844 /* Frameworks */,
+				0414E4C9299046B300987844 /* Resources */,
+				0A4DF1AA48FCFA02116F205E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0414E4CD299046B300987844 /* PBXTargetDependency */,
+			);
+			name = EglenceSepetiUITests;
+			productName = EglenceSepetiUITests;
+			productReference = 0414E4CB299046B300987844 /* EglenceSepetiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0414E4A0299046B100987844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0414E4A7299046B200987844 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0414E4C0299046B300987844 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0414E4A7299046B200987844;
+					};
+					0414E4CA299046B300987844 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0414E4A7299046B200987844;
+					};
+				};
+			};
+			buildConfigurationList = 0414E4A3299046B200987844 /* Build configuration list for PBXProject "EglenceSepeti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0414E49F299046B100987844;
+			productRefGroup = 0414E4A9299046B200987844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0414E4A7299046B200987844 /* EglenceSepeti */,
+				0414E4C0299046B300987844 /* EglenceSepetiTests */,
+				0414E4CA299046B300987844 /* EglenceSepetiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0414E4A6299046B200987844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414E4BB299046B300987844 /* LaunchScreen.storyboard in Resources */,
+				040FAAB82990482F00B6BF92 /* GoogleService-Info.plist in Resources */,
+				0414E4B8299046B300987844 /* Assets.xcassets in Resources */,
+				0414E4B3299046B200987844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0414E4BF299046B300987844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0414E4C9299046B300987844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A4DF1AA48FCFA02116F205E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EglenceSepeti-EglenceSepetiUITests/Pods-EglenceSepeti-EglenceSepetiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EglenceSepeti-EglenceSepetiUITests/Pods-EglenceSepeti-EglenceSepetiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EglenceSepeti-EglenceSepetiUITests/Pods-EglenceSepeti-EglenceSepetiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E89EF958710EE1F75ED94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EglenceSepeti-EglenceSepetiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61181328AB3F63A3172AB7BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EglenceSepetiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A36BD2B32D8BF51555EBA282 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EglenceSepeti/Pods-EglenceSepeti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EglenceSepeti/Pods-EglenceSepeti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EglenceSepeti/Pods-EglenceSepeti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D85914F6D2EFEC196934906E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EglenceSepeti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0414E4A4299046B200987844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414E4B0299046B200987844 /* ViewController.swift in Sources */,
+				04922C17299109630080C909 /* UploadViewController.swift in Sources */,
+				0414E4AC299046B200987844 /* AppDelegate.swift in Sources */,
+				043955CE299586EB00EC3439 /* DetailsViewController.swift in Sources */,
+				046DA405299445D60074DAC5 /* TableViewCell.swift in Sources */,
+				04922C1529905D6D0080C909 /* MyProfileViewController.swift in Sources */,
+				0414E4AE299046B200987844 /* SceneDelegate.swift in Sources */,
+				0414E4B6299046B200987844 /* EglenceSepeti.xcdatamodeld in Sources */,
+				043955D02996C80400EC3439 /* User.swift in Sources */,
+				04922C1329905D540080C909 /* MainPageViewController.swift in Sources */,
+				0412C18029905625004261BF /* SignUpViewController.swift in Sources */,
+				043955CC2995010D00EC3439 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0414E4BD299046B300987844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414E4C6299046B300987844 /* EglenceSepetiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0414E4C7299046B300987844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414E4D2299046B300987844 /* EglenceSepetiUITestsLaunchTests.swift in Sources */,
+				0414E4D0299046B300987844 /* EglenceSepetiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0414E4C3299046B300987844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0414E4A7299046B200987844 /* EglenceSepeti */;
+			targetProxy = 0414E4C2299046B300987844 /* PBXContainerItemProxy */;
+		};
+		0414E4CD299046B300987844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0414E4A7299046B200987844 /* EglenceSepeti */;
+			targetProxy = 0414E4CC299046B300987844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0414E4B1299046B200987844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0414E4B2299046B200987844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0414E4B9299046B300987844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0414E4BA299046B300987844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0414E4D3299046B300987844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0414E4D4299046B300987844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0414E4D6299046B300987844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E5659174E72B214C5050C9 /* Pods-EglenceSepeti.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5DCDDDQPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EglenceSepeti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.com.EglenceSepeti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0414E4D7299046B300987844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8443F49B4A716F26B30A1000 /* Pods-EglenceSepeti.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5DCDDDQPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EglenceSepeti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.com.EglenceSepeti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0414E4D9299046B300987844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC57CA704A41FDA82027A5F /* Pods-EglenceSepetiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5DCDDDQPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.com.EglenceSepetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EglenceSepeti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EglenceSepeti";
+			};
+			name = Debug;
+		};
+		0414E4DA299046B300987844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B26DBDFED5D0AA04BE56FC0 /* Pods-EglenceSepetiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5DCDDDQPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.com.EglenceSepetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EglenceSepeti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EglenceSepeti";
+			};
+			name = Release;
+		};
+		0414E4DC299046B300987844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7899939A439F5516A24E16 /* Pods-EglenceSepeti-EglenceSepetiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5DCDDDQPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.com.EglenceSepetiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EglenceSepeti;
+			};
+			name = Debug;
+		};
+		0414E4DD299046B300987844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AC2312AA8502ED5FD1E6CA /* Pods-EglenceSepeti-EglenceSepetiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5DCDDDQPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.com.EglenceSepetiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EglenceSepeti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0414E4A3299046B200987844 /* Build configuration list for PBXProject "EglenceSepeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0414E4D3299046B300987844 /* Debug */,
+				0414E4D4299046B300987844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0414E4D5299046B300987844 /* Build configuration list for PBXNativeTarget "EglenceSepeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0414E4D6299046B300987844 /* Debug */,
+				0414E4D7299046B300987844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0414E4D8299046B300987844 /* Build configuration list for PBXNativeTarget "EglenceSepetiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0414E4D9299046B300987844 /* Debug */,
+				0414E4DA299046B300987844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0414E4DB299046B300987844 /* Build configuration list for PBXNativeTarget "EglenceSepetiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0414E4DC299046B300987844 /* Debug */,
+				0414E4DD299046B300987844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0414E4B4299046B200987844 /* EglenceSepeti.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0414E4B5299046B200987844 /* EglenceSepeti.xcdatamodel */,
+			);
+			currentVersion = 0414E4B5299046B200987844 /* EglenceSepeti.xcdatamodel */;
+			path = EglenceSepeti.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0414E4A0299046B100987844 /* Project object */;
+}
