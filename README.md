@@ -1,3 +1,3 @@
 # EglenceSepeti
 
-![]https://user-images.githubusercontent.com/74858113/218268399-8960ce24-3bf7-475d-9044-03112766465f.png)
+![]https://user-images.githubusercontent.com/74858113/218268671-5c681c99-0286-40e8-9308-f448facd26bf.png)
